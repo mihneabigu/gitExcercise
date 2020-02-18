@@ -1,4 +1,4 @@
 # gitExcercise
 Git practice; trying out commands in different scenarios
 
-CONFLICT BRANCH
+MASTER BRANCH
