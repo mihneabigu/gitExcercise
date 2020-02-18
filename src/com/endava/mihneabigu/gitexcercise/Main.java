@@ -10,4 +10,14 @@ public class Main {
     public static Integer add(Integer a, Integer b) {
         return a + b;
     }
+
+    public static Integer multiply(Integer a, Integer b) {
+        Integer product = 0;
+
+        for (int i = 0; i < b; i++) {
+            product += a;
+        }
+
+        return product;
+    }
 }
