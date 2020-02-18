@@ -12,6 +12,12 @@ public class Main {
     }
 
     public static Integer multiply(Integer a, Integer b) {
-        return a * b;
+        Integer product = 0;
+
+        for (int i = 0; i < b; i++) {
+            product += a;
+        }
+
+        return product;
     }
 }
