@@ -6,4 +6,8 @@ public class Main {
 	// write your code here
         System.out.println("Hello World!");
     }
+
+    public static Integer add(Integer a, Integer b) {
+        return a + b;
+    }
 }
